@@ -8,6 +8,10 @@
         height: 26px;
         display: block;
     }
+
+    &__hamburger {
+        display: none;
+    }
 }
 
 .nav {
@@ -43,6 +47,11 @@
     .header {
         margin: 0 auto;
         max-width: 689px;
+
+        &__hamburger {
+            display: none;
+        }
+
     }
 }
 
@@ -55,6 +64,10 @@
         &__img {
             max-width: 163px;
             max-height: 18px;
+        }
+
+        &__hamburger {
+            display: flex;
         }
     }
 

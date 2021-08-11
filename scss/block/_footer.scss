@@ -64,13 +64,13 @@
         max-width: 688px;
         max-height: 270px;
         margin-top: 144px;
-        
+
         &__img {
             margin: 0;
             padding: 0;
             margin: 0 auto;
         }
-        
+
         &__menu {
             margin: 0;
             padding: 0;
@@ -80,16 +80,50 @@
         }
     }
 
-.social-box{
-    display: flex;
-    margin-top: 65px;
-    justify-content: center;
-}
+    .social-box {
+        display: flex;
+        margin-top: 65px;
+        justify-content: center;
+    }
 
     .social {
         margin: 0;
         padding: 0;
         margin: 0 auto;
 
+    }
+}
+
+// Responsive for screen 
+
+@media only screen and (max-width: 375px) {
+    .footer {
+        margin: 0;
+        padding: 54px;
+        max-width: 327px;
+        max-height: 346px;
+        margin-top: 120px;
+
+        &__menu {
+            display: flex;
+            margin: 0 auto;
+            margin-top: 48px;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        &__item:nth-child(even) {
+            margin: 0 auto;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+        
+        &__item:nth-child(odd) {
+            margin: 0 auto;
+        }
+    }
+
+    .social-box {
+        margin-top: 48px;
     }
 }
