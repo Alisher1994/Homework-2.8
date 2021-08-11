@@ -197,10 +197,10 @@
             display: flex;
             max-width: 279px;
             max-height: 382px;
-            padding: 72px 12px 45px;
+            padding: 72px 12px 0;
             flex-direction: column;
             justify-content: center;
-
+            
         }
 
         &__item:first-child {
