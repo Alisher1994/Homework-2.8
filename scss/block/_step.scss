@@ -1,0 +1,151 @@
+.step {
+    margin-top: 350px;
+    padding-left: 85px;
+
+    &__title {
+        margin: 0;
+        font-size: 24px;
+        color: #83888f;
+        font-weight: 900;
+        line-height: 32px;
+        font-style: normal;
+        font-family: "Fraunces", "Arial", sans-serif;
+    }
+
+    &__hr {
+        margin: 0;
+        width: 685px;
+        margin-top: 95px;
+        border: 2px solid #FDD6BA
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-top: 82px;
+        max-width: 1045px;
+        list-style-type: none;
+    }
+
+    &__items {
+        max-width: 285px;
+    }
+
+    &__items:nth-child(2) {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    &__img {
+        transform: translateY(-100px);
+    }
+
+    &__num {
+        margin: 0;
+        padding: 0;
+        font-size: 72px;
+        color: #fdd6ba;
+        font-weight: 900;
+        line-height: 72px;
+        font-style: normal;
+        font-family: "Fraunces", "Arial", sans-serif;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        font-size: 28px;
+        max-width: 285px;
+        font-weight: 900;
+        margin-top: 42px;
+        line-height: 32px;
+        font-style: normal;
+        font-family: "Fraunces", "Arial", sans-serif;
+    }
+
+    &__dfn {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        max-width: 285px;
+        max-height: 54px;
+        margin-top: 38px;
+        color: #333D4B;
+        line-height: 25px;
+        font-style: normal;
+        font-weight: normal;
+        font-family: "Barlow", "Arial", sans-serif;
+    }
+
+    &__link {
+        width: 217px;
+        height: 56px;
+        display: flex;
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 900;
+        margin-top: 128px;
+        line-height: 25px;
+        padding: 15px 31px;
+        border-radius: 6px;
+        font-style: normal;
+        align-items: center;
+        text-decoration: none;
+        justify-content: center;
+        background-color: #0e8784;
+        font-family: "Fraunces", "Arial", sans-serif;
+    }
+
+    &__link:hover {
+        background-color: #66d2cf;
+    }
+}
+
+
+
+// Responsive for teablets
+
+@media only screen and (max-width: 768px) {
+    .step {
+        padding-left: 0;
+    }
+
+    .step__title {
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        margin-top: 434px;
+        font-style: normal;
+    }
+
+    .step__hr {
+        max-width: 460px;
+    }
+
+    .step__items {
+        max-width: 223px;
+    }
+
+
+    .step__items:nth-child(2) {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .step__text {
+        margin-top: 42px;
+        max-width: 223px;
+        max-height: 64px;
+    }
+
+    .step__dfn {
+        margin-top: 38px;
+        max-width: 223px;
+        max-height: 154px;
+    }
+
+    .step__link {
+        margin-top: 64px;
+    }
+}
