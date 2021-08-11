@@ -73,7 +73,6 @@
         padding-left: 58px;
         border-radius: 10px;
         box-sizing: border-box;
-        border: 1px dashed green;
         background-repeat: no-repeat;
         background-position: -354px;
         background-image: url(../img/bg-1.png);
@@ -134,13 +133,14 @@ only screen and (min-resolution: 2dppx) {
         margin-top: 40px;
         max-width: 327px;
         max-height: 500px;
+        padding-top: 100px;
         background-position: -567px -8px;
 
         &__title {
             margin: 0 auto;
             font-size: 40px;
             max-width: 279px;
-            margin-top: 100px;
+            max-height: 500px;
             line-height: 40px;
             text-align: center;
         }
